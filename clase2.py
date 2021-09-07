@@ -82,12 +82,32 @@ elif(numero == 0):
 else:
     print("Es negativo")
 
+#ciclos
+
+#ciclo for
+for valor in range(11):
+    print(valor)
+
+for valor in range(1, 11):
+    print(valor)
+
+for valor in range(2, 11, 2):
+    print(valor)
 
 
 
-
-
-
+#HUA que de las n notas de un estudiante y sacar el promedio final
+num = int(input("Cuantas notas va a digitar?: "))
+if(num > 0):
+    suma = 0
+    for x in range(num):
+        nota = float(input(f"Digite la nota {x + 1}: "))
+        suma = suma + nota
+    promedio = suma / num
+    promedio = round(promedio, 2)
+    print(f"El promedio final es: {promedio}")
+else:
+    print("El numero de notas no puede ser menor que 0")
 
 
 
