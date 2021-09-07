@@ -41,5 +41,65 @@ print(True and (False and True) or False or (True or True))#True
 #2. Tabla de verdad
 
 
+#Estructura if
+x = 1
+if(x > 0):
+    print('1')
+else:
+    print('2')
+    print('3')
+
+
+#Haga un algoritmo que dada la edad de una persona indique si es mayor
+# o menor de edad.
+edad = int(input("Digita tu edad: "))
+
+if(edad >= 18):
+    print("Eres mayor de edad")
+else:
+    print("Eres menor de edad.")
+
+
+#indique si aprobo o no el estudiante
+#sabiendo que aprueba de 3.0 hasta 5.0
+nota = float(input("Digita tu nota: "))
+
+if(nota >= 3.0 and nota <= 5.0):
+    print("aprobaste")
+elif (nota < 3.0 and nota > 0):
+    print("Reprobasate")
+else:
+    print("Digite una nota valida")
+
+
+#HUA que dado un numero n diga si es negativo, positivo o cero
+numero = float(input("Digita un número: "))
+
+if(numero > 0):
+    print("Es positivo")
+elif(numero == 0):
+    print("Su número es 0")
+else:
+    print("Es negativo")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
