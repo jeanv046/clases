@@ -88,7 +88,7 @@ else:
 for valor in range(11):
     print(valor)
 
-for valor in range(1, 11):
+for valor in range(1, 11): 
     print(valor)
 
 for valor in range(2, 11, 2):
@@ -97,6 +97,7 @@ for valor in range(2, 11, 2):
 
 
 #HUA que de las n notas de un estudiante y sacar el promedio final
+#Hola Jean
 num = int(input("Cuantas notas va a digitar?: "))
 if(num > 0):
     suma = 0
